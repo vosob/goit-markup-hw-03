@@ -345,8 +345,45 @@ button {
     line-height: 1.5;
 }
 
+.footer-text {
+    width: 264px;
+}
+
 /**
   |============================
   | portfolio
   |============================
 */
+
+.filter-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 96px;
+}
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    width: 360px;
+    display: block;
+}
+
+.advantages-images {
+    margin-bottom: 32px;
+}
+
+.advantages-title {
+    margin-bottom: 8px;
+}
+
+.advantages-list {
+    margin-right: 24px;
+}
+
+.advantages-list:nth-child(3n) {
+    margin-right: 0;
+}
