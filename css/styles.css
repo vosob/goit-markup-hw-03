@@ -206,6 +206,7 @@ button {
 }
 
 .btn-filter {
+    padding: 12px 24px;
     font-family: inherit;
     color: var(--accent-bgc);
     font-size: 16px;
@@ -382,8 +383,13 @@ button {
 
 .advantages-list {
     margin-right: 24px;
+    margin-bottom: 48px;
 }
 
 .advantages-list:nth-child(3n) {
     margin-right: 0;
+}
+
+.filter-list-item:not(:last-child) {
+    margin-right: 24px;
 }
