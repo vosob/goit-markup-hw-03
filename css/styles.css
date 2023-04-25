@@ -16,6 +16,7 @@
     --accent-bgc: #4d5ae5;
     --secondary-bgc: #f4f4fd;
     --ocean-text-color: #404bbf;
+    --border-btn-color: #e7e9fc;
 }
 
 body {
@@ -225,12 +226,15 @@ button {
     background-color: var(--secondary-bgc);
     line-height: 1.5;
     cursor: pointer;
+    border: 1px solid var(--border-btn-color);
+    border-radius: 4px;
 }
 
 .btn-filter:focus,
 .btn-filter:hover {
     color: var(--white-text-color);
     background-color: var(--ocean-text-color);
+    border: 1px solid transparent;
 }
 
 /**
@@ -376,8 +380,7 @@ button {
 .filter-list {
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 96px;
+    margin-bottom: 72px;
 }
 
 .advantages {
@@ -407,6 +410,14 @@ button {
     margin-right: 0;
 }
 
+.advantages-list:nth-child(n + 7) {
+    margin-bottom: 0;
+}
+
 .filter-list-item:not(:last-child) {
     margin-right: 24px;
+}
+
+.section-portfolio {
+    padding: 96px 0 120px;
 }
