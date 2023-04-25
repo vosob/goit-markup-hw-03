@@ -69,10 +69,11 @@ button {
   |============================
 */
 
-/* .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-} */
+.header {
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
     display: flex;
@@ -148,7 +149,7 @@ button {
 }
 
 .header-list-item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 /* 
 .header-list li {
@@ -186,10 +187,19 @@ button {
     letter-spacing: 0.02em;
     line-height: 1.07;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .btn {
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+
+    border: none;
+    border-radius: 4px;
     font-family: inherit;
     color: var(--white-text-color);
     font-size: 16px;
@@ -263,6 +273,8 @@ button {
 */
 
 .section-hero {
+    padding: 188px 0;
+
     color: var(--main-text-color);
     font-size: 36px;
     font-weight: 600;
@@ -314,6 +326,7 @@ button {
 
 .team-item {
     background-color: var(--white-text-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:not(:last-child) {
@@ -324,6 +337,10 @@ button {
     display: flex;
 }
 
+.card-info {
+    padding: 32px 16px;
+}
+
 /**
   |============================
   | footer
@@ -332,6 +349,7 @@ button {
 
 .footer {
     background-color: var(--main-text-color);
+    padding: 100px 0;
 }
 
 .logo-light {
